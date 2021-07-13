@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/start_learn"
+        android:icon="@drawable/ic_start_learn"
+        android:title="@string/start_learn"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/select_category"
+        android:title="@string/select_category"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView"/>
+
+    <item
+        android:id="@+id/show_answer"
+        android:title="@string/show_answer"/>
+
+    <item
+        android:id="@+id/show_categories"
+        android:title="@string/show_categories"/>
+
+</menu>

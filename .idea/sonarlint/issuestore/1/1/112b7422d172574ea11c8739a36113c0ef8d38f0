@@ -1,0 +1,10 @@
+
+m
+java:S1104"RMake answer a static final constant or non-public and provide accessors if needed.(è÷şùÿÿÿÿ
+j
+java:S1104"TMake question a static final constant or non-public and provide accessors if needed.(ˆ‡ßÙ
+i
+java:S1104"TMake category a static final constant or non-public and provide accessors if needed.(¯™°Z
+j
+java:S1104"TMake progress a static final constant or non-public and provide accessors if needed.(£Ôç
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(é¸Á†üÿÿÿÿ

@@ -1,0 +1,23 @@
+
+n
+>app/src/main/java/pl/edu/pl/pomocnikjezykowy/MainActivity.java,0\7\07d615c8d337e8046a19a646a108ad9082d7b3cf
+w
+Gapp/src/main/java/pl/edu/pl/pomocnikjezykowy/EditFlashcardActivity.java,f\f\ff7c8d8cb1ed38e62aec741f2965d9875dc66df7
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+r
+Bapp/src/main/java/pl/edu/pl/pomocnikjezykowy/DAL/FlashcardDao.java,1\2\128cc3201c76433bf3db6dd7399a79e5a5e9e8b0
+w
+Gapp/src/main/java/pl/edu/pl/pomocnikjezykowy/DAL/FlashcardDatabase.java,c\c\cc0ac6c644b5b34c3e3262cce8df2aacf7e89159
+y
+Iapp/src/main/java/pl/edu/pl/pomocnikjezykowy/DAL/FlashcardRepository.java,c\c\cc35c4ed96bc54016348e7b798e932697a3fb9b7
+{
+Kapp/src/main/java/pl/edu/pl/pomocnikjezykowy/MODELS/FlashcardViewModel.java,0\e\0ebb2c189a5e40dca94d913cba1ca9aa6b3461ee
+r
+Bapp/src/main/java/pl/edu/pl/pomocnikjezykowy/MODELS/Flashcard.java,1\1\112b7422d172574ea11c8739a36113c0ef8d38f0
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+o
+?app/src/main/java/pl/edu/pl/pomocnikjezykowy/LearnActivity.java,a\1\a1e053da46b2fef4897ffb7ea8274966cbc58254
+t
+Dapp/src/main/java/pl/edu/pl/pomocnikjezykowy/MODELS/DataWrapper.java,f\2\f2fa20a69eed9cfbeaca619d3f89f495559f9217

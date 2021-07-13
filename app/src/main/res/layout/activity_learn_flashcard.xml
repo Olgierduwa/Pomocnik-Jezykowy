@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/big_padding"
+    android:gravity="center"
+    tools:context=".LearnActivity">
+
+    <TextView
+        android:layout_gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/big_padding"
+        android:layout_marginTop="@dimen/big_padding"
+        android:textSize="@dimen/big_padding"
+        android:gravity="center"
+        android:text="@string/fishcard_label"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_padding"
+            android:layout_marginRight="@dimen/big_padding"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/skiped_answer"/>
+            <TextView
+                android:id="@+id/skiped_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_padding"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/correct_answer"/>
+            <TextView
+                android:id="@+id/correct_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 / 10"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="@dimen/small_padding"
+            android:layout_marginLeft="@dimen/big_padding"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wrong_answer"/>
+            <TextView
+                android:id="@+id/wrong_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/big_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/big_padding"
+            android:textSize="@dimen/big_padding"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:text="Pytanie"/>
+
+        <EditText
+            android:id="@+id/answer_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/big_padding"
+            android:textSize="@dimen/big_padding"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/big_padding"
+            android:hint="@string/hint_flashcard_answer"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/answer_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_answer"
+            android:background="@color/buttonColor"/>
+
+        <Button
+            android:id="@+id/skip_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/small_padding"
+            android:background="@color/colorPrimary"
+            android:text="@string/skip_answer"/>
+
+    </LinearLayout>
+
+</LinearLayout>

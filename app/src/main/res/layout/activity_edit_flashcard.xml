@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/big_padding"
+    android:layout_gravity="center">
+
+    <TextView
+        android:textSize="@dimen/big_padding"
+        android:gravity="center"
+        android:padding="@dimen/big_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fishcard_label"/>
+
+    <EditText
+        android:id="@+id/edit_flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_flashcard_question"
+        android:inputType="textAutoComplete"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/edit_flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_flashcard_answer"
+        android:inputType="textAutoComplete"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:textSize="24dp"/>
+
+    <EditText
+        android:id="@+id/edit_flashcard_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_flashcard_category"
+        android:inputType="textAutoComplete"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/view_flashcard_progress_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_padding"
+        android:layout_marginTop="@dimen/small_padding"
+        android:text="@string/label_flashcard_progress"/>
+
+    <TextView
+        android:id="@+id/view_flashcard_progress"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/big_padding"
+        android:layout_marginTop="@dimen/small_padding"
+        android:layout_marginBottom="@dimen/big_padding"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_marginTop="@dimen/big_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/buttonColor"
+        android:text="@string/save_button"
+        android:textSize="20dp"/>
+
+</LinearLayout>

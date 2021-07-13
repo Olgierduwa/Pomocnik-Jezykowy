@@ -1,0 +1,17 @@
+
+X	java:S110"<This class has 9 parents which is greater than 5 authorized.(·¹ïÑ8‚’Íä.
+[
+java:S1155U">Use isEmpty() to check whether the collection is empty or not.(Âªÿ‚8Ñˆ»êä.
+g
+java:S1128"JRemove this unused import 'com.google.android.material.snackbar.Snackbar'.(ë„ƒŠ8¤Ö¼âä.
+E
+java:S1604L"(Make this anonymous inner class a lambda(¼ÏïÎ8ˆÃúää.
+…
+java:S1157C"cReplace these toUpperCase()/toLowerCase() and equals() calls with a single equalsIgnoreCase() call.(³¡òÈşÿÿÿÿ8üèèêä.
+H
+java:S1068)"+Remove this unused "adapter" private field.(²«ìÍ8õ¶Úèä.
+]	java:S125"<This block of commented-out lines of code should be removed.(ÙÇ›ûÿÿÿÿ8®ËÁâä.
+F
+java:S1125N")Remove the literal "false" boolean value.(íÙÌû8ıú£æä.
+E
+java:S1604A"(Make this anonymous inner class a lambda(£ß¯’8¿ ¢ãä.
